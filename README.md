@@ -1,6 +1,7 @@
-# SDIS Project
+# Chord Backup
 
-SDIS Project for group T7 G24.
+A peer-to-peer distributed backup service for the Internet.
+Check the [Docs](doc/sdis-g24-proj2.pdf)
 
 Group members:
 
@@ -46,12 +47,6 @@ Group members:
 6. Execute every protocol you want:
    There are default commands for the files inside the `test` folder, for example:
    `make backup`, `make restore3`, `make delete2`, `make reclaim5`, `make state1`, ...
-
-    These protocols commands are the same as those in the first project.
-    
-    > IMP: 
-    > The BACKUP protocol can receive any path from the filesystem, being it relative or absolute.
-    > The RESTORE and DELETE protocols should only receive the file name.
 
 7. Clear all the output files:
    `make clean`
